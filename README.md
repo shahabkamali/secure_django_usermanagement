@@ -15,4 +15,4 @@ url = "http://%s/users/new_password?token=%s" % (request.get_host(), token)
 here in reseting password we need to send a link with respective token to user, so we used this line of code but here we have a
 security vulnerability, that is if we did not defined allowed host in django setting, hackers can change the header and send page back
 with their own website and use token for reseting password.
-for solving this, we must add our domainName to allwoed_host to settings.py
+for solving this, we must add our domainName to allowed_host to settings.py
