@@ -1,11 +1,11 @@
-# secure_django_usermanagement
-some tips for have a secure user management
+
 
 # secure_django_usermanagement
-some tips for have a secure user management
+some tips for having a secure user management
 
 
 this project is about some tips for having a secure user management in django.
+
 
 # Header verification
 #1.
